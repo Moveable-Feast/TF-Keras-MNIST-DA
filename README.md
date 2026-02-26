@@ -1,5 +1,7 @@
 # TF-Keras-MNIST-DA
 
+*AL generated. Don't be so serious.*
+
 A professional deep learning project demonstrating best practices for building, training, evaluating, and tracking a Multi-Layer Perceptron (MLP) model on the MNIST handwritten digit dataset using TensorFlow/Keras.
 
 This project serves as a template for **reproducible, well-structured, and production-ready** machine learning projects, including:
