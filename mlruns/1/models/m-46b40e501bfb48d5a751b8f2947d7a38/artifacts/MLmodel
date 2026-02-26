@@ -1,0 +1,22 @@
+artifact_path: file:D:/code_projects/GitHub_repositories/TF-Keras-MNIST-DA/mlruns/1/models/m-46b40e501bfb48d5a751b8f2947d7a38/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.13.5
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.20.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.10.0
+model_id: m-46b40e501bfb48d5a751b8f2947d7a38
+model_size_bytes: 3275734
+model_uuid: m-46b40e501bfb48d5a751b8f2947d7a38
+prompts: null
+run_id: 12bc7f7cf1ee448193d12e604fb64eb6
+utc_time_created: '2026-02-26 05:59:50.903377'

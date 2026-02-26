@@ -1,0 +1,22 @@
+data:
+  dataset: mnist
+  validation_split: 0.2
+  random_seed: 42
+
+model:
+  name: mlp
+  hidden_units: 512
+  activation: relu
+  output_units: 10
+  output_activation: softmax
+
+training:
+  batch_size: 128
+  epochs: 10
+  optimizer: rmsprop
+  loss: categorical_crossentropy
+  metrics: ["accuracy"]
+
+logging:
+  use_mlflow: true
+  experiment_name: mnist_mlp
