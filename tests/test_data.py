@@ -1,4 +1,7 @@
 import unittest
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.data.preprocessing import load_mnist, preprocess
 
 class TestData(unittest.TestCase):
@@ -9,4 +12,5 @@ class TestData(unittest.TestCase):
         self.assertEqual(y.shape[1], 10)
 
 if __name__ == '__main__':
+
     unittest.main()
